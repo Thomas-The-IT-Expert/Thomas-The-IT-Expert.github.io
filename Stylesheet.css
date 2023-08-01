@@ -1,0 +1,99 @@
+/* Reset standaard marges en padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stijl voor de body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f1f3f4;
+}
+
+/* Stijl voor de navigatiebalk */
+header {
+    background-color: #243c60;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Stijl voor de banner sectie */
+#banner {
+    background-image: url("https://i.pinimg.com/originals/57/ee/9a/57ee9ae218181376f8f6d204e6c2b701.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Stel hier de gewenste hoogte van de banner in */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner-content {
+    padding: 2rem;
+    background-color: rgba(36, 60, 96, 0.7); /* Achtergrondkleur met een lichte transparantie om tekst leesbaar te maken */
+}
+
+/* Stijl voor de hoofdsectie */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Stijl voor de secties */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Stijl voor koppen */
+h1, h2 {
+    color: #243c60;
+    margin-bottom: 1rem;
+}
+
+/* Stijl voor paragrafen */
+p {
+    color: #333;
+}
+
+/* Stijl voor de footer */
+footer {
+    background-color: #2e2e2e;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Stijl voor de links */
+a {
+    color: #4b8fbb;
+}
+
+/* Optioneel: Responsieve stijlen voor verschillende apparaten */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+    header nav li {
+        margin: 10px 0;
+    }
+}
