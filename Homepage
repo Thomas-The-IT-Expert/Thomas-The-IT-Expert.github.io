@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sociëteit van [Jouw Naam]</title>
+    <!-- Link naar externe CSS-stijlen -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigatiebalk -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#over-ons">Over Ons</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner sectie -->
+    <section id="banner">
+        <div class="banner-content">
+            <h1>Welkom bij Sociëteit [Naam]</h1>
+            <p>
+                Welkom op onze website! Hier willen we je graag informeren over onze sociëteit en je uitnodigen
+                voor gesprekken en activiteiten.
+            </p>
+        </div>
+    </section>
+
+    <!-- Hoofdsectie -->
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>
+                [Vul hier de inhoud van de Home-sectie in.]
+            </p>
+        </section>
+
+        <section id="over-ons">
+            <h2>Over Ons</h2>
+            <p>
+                [Beschrijf hier wat jouw sociëteit uniek maakt en waar jullie voor staan. Vertel over jullie
+                activiteiten en evenementen.]
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Wil je meer weten over onze sociëteit of een gesprek bijwonen? Neem gerust contact met ons op via
+                onderstaande gegevens:
+            </p>
+            <ul>
+                <li>Email: [emailadres]</li>
+                <li>Telefoon: [telefoonnummer]</li>
+                <li>Adres: [adres]</li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Sociëteit [Naam]. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <!-- Optioneel: Voeg JavaScript toe voor extra functionaliteit -->
+    <script>
+        // Plaats hier je JavaScript-code als je extra functionaliteit wilt toevoegen.
+    </script>
+</body>
+
+</html>
